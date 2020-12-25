@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardElevation="0dp"
+    android:id="@+id/card"
+    app:cardCornerRadius="2dp"
+    android:elevation="0dp"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="0dp"
+        android:layout_marginLeft="10dp"
+
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/place"
+            android:textColor="@color/colorPrimary"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/lat"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/lng"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:textSize="15dp" />
+
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#ffffff"
+        android:layout_marginTop="2dp">
+
+    </View>
+
+
+
+</LinearLayout>
